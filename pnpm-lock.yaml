@@ -317,7 +317,7 @@ importers:
         version: 16.6.2(eslint@8.56.0)
       eslint-plugin-prettier:
         specifier: 5.1.3
-        version: 5.1.3(@types/eslint@8.56.2)(eslint-config-prettier@9.1.0(eslint@8.56.0))(eslint@8.56.0)(prettier@3.2.1)
+        version: 5.1.3(@types/eslint@8.56.2)(eslint-config-prettier@9.1.0(eslint@8.56.0))(eslint@8.56.0)(prettier@3.3.3)
       eslint-plugin-yml:
         specifier: 1.11.0
         version: 1.11.0(eslint@8.56.0)
@@ -346,8 +346,8 @@ importers:
         specifier: 3.0.2
         version: 3.0.2
       prettier:
-        specifier: 3.2.1
-        version: 3.2.1
+        specifier: 3.3.3
+        version: 3.3.3
       remark:
         specifier: 14.0.3
         version: 14.0.3
@@ -374,7 +374,7 @@ importers:
         version: 9.0.0
       remark-preset-prettier:
         specifier: 0.5.1
-        version: 0.5.1(prettier@3.2.1)
+        version: 0.5.1(prettier@3.3.3)
       request-promise-native:
         specifier: 1.0.9
         version: 1.0.9(request@2.88.2)
@@ -3913,8 +3913,8 @@ packages:
     resolution: {integrity: sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==}
     engines: {node: '>=6.0.0'}
 
-  prettier@3.2.1:
-    resolution: {integrity: sha512-qSUWshj1IobVbKc226Gw2pync27t0Kf0EdufZa9j7uBSJay1CC+B3K5lAAZoqgX3ASiKuWsk6OmzKRetXNObWg==}
+  prettier@3.3.3:
+    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -6925,10 +6925,10 @@ snapshots:
       resolve: 1.22.4
       semver: 7.5.4
 
-  eslint-plugin-prettier@5.1.3(@types/eslint@8.56.2)(eslint-config-prettier@9.1.0(eslint@8.56.0))(eslint@8.56.0)(prettier@3.2.1):
+  eslint-plugin-prettier@5.1.3(@types/eslint@8.56.2)(eslint-config-prettier@9.1.0(eslint@8.56.0))(eslint@8.56.0)(prettier@3.3.3):
     dependencies:
       eslint: 8.56.0
-      prettier: 3.2.1
+      prettier: 3.3.3
       prettier-linter-helpers: 1.0.0
       synckit: 0.8.6
     optionalDependencies:
@@ -9608,7 +9608,7 @@ snapshots:
     dependencies:
       fast-diff: 1.3.0
 
-  prettier@3.2.1: {}
+  prettier@3.3.3: {}
 
   pretty-format@29.7.0:
     dependencies:
@@ -9874,9 +9874,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  remark-preset-prettier@0.5.1(prettier@3.2.1):
+  remark-preset-prettier@0.5.1(prettier@3.3.3):
     dependencies:
-      prettier: 3.2.1
+      prettier: 3.3.3
 
   remark-stringify@10.0.3:
     dependencies:
