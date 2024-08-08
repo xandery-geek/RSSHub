@@ -204,8 +204,8 @@ importers:
         specifier: 1.15.2
         version: 1.15.2
       winston:
-        specifier: 3.11.0
-        version: 3.11.0
+        specifier: 3.14.1
+        version: 3.14.1
       xxhash-wasm:
         specifier: 1.0.2
         version: 1.0.2
@@ -586,10 +586,6 @@ packages:
 
   '@bcoe/v8-coverage@0.2.3':
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
-
-  '@colors/colors@1.5.0':
-    resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}
-    engines: {node: '>=0.1.90'}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -3163,8 +3159,9 @@ packages:
     resolution: {integrity: sha512-niTvB4gqvtof056rRIrTZvjNYE4rCUzO6X/X+kYjd7WFxXeJ0NwEFnRxX6ehkvv3jTwrXnNdtAak5XYZuIyPFw==}
     engines: {node: '>=18'}
 
-  logform@2.5.1:
-    resolution: {integrity: sha512-9FyqAm9o9NKKfiAKfZoYo9bGXXuwMkxQiQttkT4YjjVtQVIQtK6LmVtlxmCaFswo6N4AfEkHqZTV0taDtPotNg==}
+  logform@2.6.1:
+    resolution: {integrity: sha512-CdaO738xRapbKIMVn2m4F6KTj4j7ooJ8POVnebSgKo3KBz5axNXRAL7ZdRjIV6NOr2Uf4vjtRkxrFETOioCqSA==}
+    engines: {node: '>= 12.0.0'}
 
   longest-streak@3.1.0:
     resolution: {integrity: sha512-9Ri+o0JYgehTaVBBDoMqIl8GXtbWg711O3srftcHhZ0dqnETqLaoIK0x17fUw9rFSlK/0NlsKe0Ahhyl5pXE2g==}
@@ -4046,7 +4043,7 @@ packages:
   puppeteer@21.7.0:
     resolution: {integrity: sha512-Yy+UUy0b9siJezbhHO/heYUoZQUwyqDK1yOQgblTt0l97tspvDVFkcW9toBlnSvSfkDmMI3Dx9cZL6R8bDArHA==}
     engines: {node: '>=16.13.2'}
-    deprecated: < 22.6.4 is no longer supported
+    deprecated: < 22.8.2 is no longer supported
     hasBin: true
 
   pure-rand@6.0.2:
@@ -4953,12 +4950,12 @@ packages:
   wide-align@1.1.5:
     resolution: {integrity: sha512-eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==}
 
-  winston-transport@4.5.0:
-    resolution: {integrity: sha512-YpZzcUzBedhlTAfJg6vJDlyEai/IFMIVcaEZZyl3UXIl4gmqRpU7AE89AHLkbzLUsv0NVmw7ts+iztqKxxPW1Q==}
-    engines: {node: '>= 6.4.0'}
+  winston-transport@4.7.1:
+    resolution: {integrity: sha512-wQCXXVgfv/wUPOfb2x0ruxzwkcZfxcktz6JIMUaPLmcNhO4bZTwA/WtDWK74xV3F2dKu8YadrFv0qhwYjVEwhA==}
+    engines: {node: '>= 12.0.0'}
 
-  winston@3.11.0:
-    resolution: {integrity: sha512-L3yR6/MzZAOl0DsysUXHVjOwv8mKZ71TrA/41EIduGpOOV5LQVodqN+QdQ6BS6PJ/RdIshZhq84P/fStEZkk7g==}
+  winston@3.14.1:
+    resolution: {integrity: sha512-CJi4Il/msz8HkdDfXOMu+r5Au/oyEjFiOZzbX2d23hRLY0narGjqfE5lFlrT5hfYJhPtM8b85/GNFsxIML/RVA==}
     engines: {node: '>= 12.0.0'}
 
   word-wrap@1.2.5:
@@ -5284,8 +5281,6 @@ snapshots:
       to-fast-properties: 2.0.0
 
   '@bcoe/v8-coverage@0.2.3': {}
-
-  '@colors/colors@1.5.0': {}
 
   '@colors/colors@1.6.0': {}
 
@@ -8460,9 +8455,9 @@ snapshots:
       strip-ansi: 7.1.0
       wrap-ansi: 9.0.0
 
-  logform@2.5.1:
+  logform@2.6.1:
     dependencies:
-      '@colors/colors': 1.5.0
+      '@colors/colors': 1.6.0
       '@types/triple-beam': 1.3.2
       fecha: 4.2.3
       ms: 2.1.3
@@ -10692,25 +10687,25 @@ snapshots:
     dependencies:
       string-width: 4.2.3
 
-  winston-transport@4.5.0:
+  winston-transport@4.7.1:
     dependencies:
-      logform: 2.5.1
+      logform: 2.6.1
       readable-stream: 3.6.2
       triple-beam: 1.4.1
 
-  winston@3.11.0:
+  winston@3.14.1:
     dependencies:
       '@colors/colors': 1.6.0
       '@dabh/diagnostics': 2.0.3
       async: 3.2.4
       is-stream: 2.0.1
-      logform: 2.5.1
+      logform: 2.6.1
       one-time: 1.0.0
       readable-stream: 3.6.2
       safe-stable-stringify: 2.4.3
       stack-trace: 0.0.10
       triple-beam: 1.4.1
-      winston-transport: 4.5.0
+      winston-transport: 4.7.1
 
   word-wrap@1.2.5: {}
 
