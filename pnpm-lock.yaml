@@ -380,8 +380,8 @@ importers:
         specifier: 9.16.0
         version: 9.16.0
       eslint-config-prettier:
-        specifier: 9.1.0
-        version: 9.1.0(eslint@9.16.0)
+        specifier: 10.1.1
+        version: 10.1.1(eslint@9.16.0)
       eslint-nibble:
         specifier: 8.1.0
         version: 8.1.0(eslint@9.16.0)
@@ -390,7 +390,7 @@ importers:
         version: 17.15.1(eslint@9.16.0)
       eslint-plugin-prettier:
         specifier: 5.2.6
-        version: 5.2.6(@types/eslint@9.6.1)(eslint-config-prettier@9.1.0(eslint@9.16.0))(eslint@9.16.0)(prettier@3.4.2)
+        version: 5.2.6(@types/eslint@9.6.1)(eslint-config-prettier@10.1.1(eslint@9.16.0))(eslint@9.16.0)(prettier@3.4.2)
       eslint-plugin-unicorn:
         specifier: 56.0.1
         version: 56.0.1(eslint@9.16.0)
@@ -3040,8 +3040,8 @@ packages:
     peerDependencies:
       eslint: '>=6.0.0'
 
-  eslint-config-prettier@9.1.0:
-    resolution: {integrity: sha512-NSWl5BFQWEPi1j4TjVNItzYV7dZXZ+wP6I6ZhrBGpChQhZRUaElihE9uRRkcbRnNb76UMKDF3r+WTmNcGPKsqw==}
+  eslint-config-prettier@10.1.1:
+    resolution: {integrity: sha512-4EQQr6wXwS+ZJSzaR5ZCrYgLxqvUjdXctaEtBqHcbkW944B1NQyO4qpdHQbXBONfwxXdkAY81HH4+LUfrg+zPw==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -8723,7 +8723,7 @@ snapshots:
       eslint: 9.16.0
       semver: 7.6.3
 
-  eslint-config-prettier@9.1.0(eslint@9.16.0):
+  eslint-config-prettier@10.1.1(eslint@9.16.0):
     dependencies:
       eslint: 9.16.0
 
@@ -8770,7 +8770,7 @@ snapshots:
       minimatch: 9.0.5
       semver: 7.6.3
 
-  eslint-plugin-prettier@5.2.6(@types/eslint@9.6.1)(eslint-config-prettier@9.1.0(eslint@9.16.0))(eslint@9.16.0)(prettier@3.4.2):
+  eslint-plugin-prettier@5.2.6(@types/eslint@9.6.1)(eslint-config-prettier@10.1.1(eslint@9.16.0))(eslint@9.16.0)(prettier@3.4.2):
     dependencies:
       eslint: 9.16.0
       prettier: 3.4.2
@@ -8778,7 +8778,7 @@ snapshots:
       synckit: 0.11.1
     optionalDependencies:
       '@types/eslint': 9.6.1
-      eslint-config-prettier: 9.1.0(eslint@9.16.0)
+      eslint-config-prettier: 10.1.1(eslint@9.16.0)
 
   eslint-plugin-unicorn@56.0.1(eslint@9.16.0):
     dependencies:
