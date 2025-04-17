@@ -25,8 +25,8 @@ importers:
         specifier: 1.13.8
         version: 1.13.8(hono@4.6.20)
       '@hono/zod-openapi':
-        specifier: 0.18.4
-        version: 0.18.4(hono@4.6.20)(zod@3.24.3)
+        specifier: 0.19.4
+        version: 0.19.4(hono@4.6.20)(zod@3.24.3)
       '@notionhq/client':
         specifier: 2.2.17
         version: 2.2.17
@@ -1396,15 +1396,15 @@ packages:
     peerDependencies:
       hono: ^4
 
-  '@hono/zod-openapi@0.18.4':
-    resolution: {integrity: sha512-6NHMHU96Hh32B1yDhb94Z4Z5/POsmEu2AXpWLWcBq9arskRnOMt2752yEoXoADV8WUAc7H1IkNaQHGj1ytXbYw==}
+  '@hono/zod-openapi@0.19.4':
+    resolution: {integrity: sha512-wt/Hn5TudVLGQxARVBBGDN/ckDOWUQrw9gdZoDBfRb5+G8+AJ/qeRDV8iorKE3SyEeiRkJ5ErKevkjCsAgH69Q==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       hono: '>=4.3.6'
       zod: 3.*
 
-  '@hono/zod-validator@0.4.2':
-    resolution: {integrity: sha512-1rrlBg+EpDPhzOV4hT9pxr5+xDVmKuz6YJl+la7VCwK6ass5ldyKm5fD+umJdV2zhHD6jROoCCv8NbTwyfhT0g==}
+  '@hono/zod-validator@0.4.3':
+    resolution: {integrity: sha512-xIgMYXDyJ4Hj6ekm9T9Y27s080Nl9NXHcJkOvkXPhubOLj8hZkOL8pDnnXfvCf5xEE8Q4oMFenQUZZREUY2gqQ==}
     peerDependencies:
       hono: '>=3.9.0'
       zod: ^3.19.1
@@ -5860,8 +5860,8 @@ packages:
     engines: {node: '>= 14'}
     hasBin: true
 
-  yaml@2.7.0:
-    resolution: {integrity: sha512-+hSoy/QHluxmC9kCIJyL/uyFmLmc+e5CFR5Wa+bpIhIj85LVb9ZH2nVnqrHoSvKogwODv0ClqZkmiSSaIH5LTA==}
+  yaml@2.7.1:
+    resolution: {integrity: sha512-10ULxpnOCQXxJvBgxsn9ptjq6uviG/htZKk9veJGhlqn3w/DxQ631zFF+nlQXLwmImeS5amR2dl2U8sg6U9jsQ==}
     engines: {node: '>= 14'}
     hasBin: true
 
@@ -6925,14 +6925,14 @@ snapshots:
     dependencies:
       hono: 4.6.20
 
-  '@hono/zod-openapi@0.18.4(hono@4.6.20)(zod@3.24.3)':
+  '@hono/zod-openapi@0.19.4(hono@4.6.20)(zod@3.24.3)':
     dependencies:
       '@asteasolutions/zod-to-openapi': 7.3.0(zod@3.24.3)
-      '@hono/zod-validator': 0.4.2(hono@4.6.20)(zod@3.24.3)
+      '@hono/zod-validator': 0.4.3(hono@4.6.20)(zod@3.24.3)
       hono: 4.6.20
       zod: 3.24.3
 
-  '@hono/zod-validator@0.4.2(hono@4.6.20)(zod@3.24.3)':
+  '@hono/zod-validator@0.4.3(hono@4.6.20)(zod@3.24.3)':
     dependencies:
       hono: 4.6.20
       zod: 3.24.3
@@ -10442,7 +10442,7 @@ snapshots:
 
   openapi3-ts@4.4.0:
     dependencies:
-      yaml: 2.7.0
+      yaml: 2.7.1
 
   optionator@0.8.3:
     dependencies:
@@ -11836,7 +11836,7 @@ snapshots:
 
   yaml@2.6.1: {}
 
-  yaml@2.7.0: {}
+  yaml@2.7.1: {}
 
   yargs-parser@15.0.3:
     dependencies:
