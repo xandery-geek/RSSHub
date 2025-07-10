@@ -33342,8 +33342,7 @@
       "/:endpoint": {
         "path": "/:endpoint",
         "categories": [
-          "traditional-media",
-          "popular"
+          "traditional-media"
         ],
         "view": 0,
         "example": "/economist/latest",
@@ -46330,7 +46329,8 @@
     "apiRoutes": {},
     "url": "sh.gov.cn",
     "categories": [
-      "government"
+      "government",
+      "popular"
     ],
     "description": "",
     "lang": "zh-CN",
