@@ -8343,7 +8343,8 @@ export default {
       "/information/:type?": {
         "path": "/information/:type?",
         "categories": [
-          "new-media"
+          "new-media",
+          "popular"
         ],
         "example": "/aliresearch/information",
         "parameters": {
@@ -9333,8 +9334,7 @@ export default {
       "/news": {
         "path": "/news",
         "categories": [
-          "programming",
-          "popular"
+          "programming"
         ],
         "example": "/anthropic/news",
         "parameters": {},
@@ -14961,7 +14961,8 @@ export default {
           "embed": "默认为开启内嵌视频, 任意值为关闭"
         },
         "categories": [
-          "social-media"
+          "social-media",
+          "popular"
         ],
         "location": "video-all.ts",
         "module": () => import('@/routes/bilibili/video-all.ts')
@@ -25445,8 +25446,7 @@ export default {
       "/huati/:tag": {
         "path": "/huati/:tag",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "example": "/coolapk/huati/iPhone",
         "parameters": {
@@ -32308,7 +32308,8 @@ export default {
       "/:type?/:category?": {
         "path": "/:type?/:category?",
         "categories": [
-          "new-media"
+          "new-media",
+          "popular"
         ],
         "example": "/dx2025",
         "parameters": {
@@ -44945,7 +44946,8 @@ export default {
       "/npc/:caty": {
         "path": "/npc/:caty",
         "categories": [
-          "government"
+          "government",
+          "popular"
         ],
         "example": "/gov/npc/c183",
         "parameters": {
@@ -108721,8 +108723,7 @@ export default {
       "/mp/msgalbum/:biz/:aid": {
         "path": "/mp/msgalbum/:biz/:aid",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/wechat/mp/msgalbum/MzA3MDM3NjE5NQ==/1375870284640911361",
         "parameters": {
@@ -116298,8 +116299,7 @@ export default {
       "/posts/:id": {
         "path": "/posts/:id",
         "categories": [
-          "blog",
-          "popular"
+          "blog"
         ],
         "example": "/zhubai/posts/via",
         "parameters": {
