@@ -313,8 +313,8 @@ importers:
         specifier: 7.27.1
         version: 7.27.1(@babel/core@7.27.4)
       '@bbob/types':
-        specifier: 4.2.0
-        version: 4.2.0
+        specifier: 4.3.1
+        version: 4.3.1
       '@eslint/eslintrc':
         specifier: 3.3.1
         version: 3.3.1
@@ -1062,8 +1062,8 @@ packages:
   '@bbob/preset@4.2.0':
     resolution: {integrity: sha512-IA+kxlrRcYBXE634B8W6uU2DO7VvrxeOqWUzIDKV2CgzTMpmCG875ihGp+Q3T+QxGwzG5S0L4GdmCIULTbzC4A==}
 
-  '@bbob/types@4.2.0':
-    resolution: {integrity: sha512-bSCZnNg0VrPosBBUVkjBDYVKNEqwT0jTNuzvAuNrZkuILgUKtLYI9GHuT8rY4lZecCb7UqGDsHsYt0YJO36eJg==}
+  '@bbob/types@4.3.1':
+    resolution: {integrity: sha512-TXxFPfKvZVH/sR0mfn5I99bEFmbnAzIoqFBxG1htRiKyJUx7Yb/ZNS/OsQD1mIsR6+srDqXFDaWbDgVudTTjvQ==}
 
   '@bcoe/v8-coverage@0.2.3':
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
@@ -4612,9 +4612,11 @@ packages:
 
   mailsplit@5.4.3:
     resolution: {integrity: sha512-PFV0BBh4Tv7Omui5FtXXVtN4ExAxIi8Yvmb9JgBz+J6Hnnrv/YYXLlKKudLhXwd3/qWEATOslRsnzVCWDeCnmQ==}
+    deprecated: This package has been renamed to @zone-eu/mailsplit. Please update your dependencies.
 
   mailsplit@5.4.6:
     resolution: {integrity: sha512-M+cqmzaPG/mEiCDmqQUz8L177JZLZmXAUpq38owtpq2xlXlTSw+kntnxRt2xsxVFFV6+T8Mj/U0l5s7s6e0rNw==}
+    deprecated: This package has been renamed to @zone-eu/mailsplit. Please update your dependencies.
 
   make-dir@4.0.0:
     resolution: {integrity: sha512-hXdUTZYIVOt1Ex//jAQi+wTZZpUpwBj/0QsOzqegb3rGMMeJiSEu5xLHnYfBrRV4RH2+OCSOO95Is/7x1WJ4bw==}
@@ -7190,35 +7192,35 @@ snapshots:
     dependencies:
       '@bbob/parser': 4.2.0(patch_hash=58c1d33094ba97e82bb2d6f3aebe02293280282dc236ba5c0b4addffb079a5a6)
       '@bbob/plugin-helper': 4.2.0(patch_hash=d40357c9c2cb427a75a812d7bc567abd246bd57a77fe38b15847556a626a5bca)
-      '@bbob/types': 4.2.0
+      '@bbob/types': 4.3.1
 
   '@bbob/html@4.2.0':
     dependencies:
       '@bbob/core': 4.2.0(patch_hash=2145e7e74e896ed9a0245a5c0efc45359739aa9cf8f4f797557d74124c49dfe4)
       '@bbob/plugin-helper': 4.2.0(patch_hash=d40357c9c2cb427a75a812d7bc567abd246bd57a77fe38b15847556a626a5bca)
-      '@bbob/types': 4.2.0
+      '@bbob/types': 4.3.1
 
   '@bbob/parser@4.2.0(patch_hash=58c1d33094ba97e82bb2d6f3aebe02293280282dc236ba5c0b4addffb079a5a6)':
     dependencies:
       '@bbob/plugin-helper': 4.2.0(patch_hash=d40357c9c2cb427a75a812d7bc567abd246bd57a77fe38b15847556a626a5bca)
-      '@bbob/types': 4.2.0
+      '@bbob/types': 4.3.1
 
   '@bbob/plugin-helper@4.2.0(patch_hash=d40357c9c2cb427a75a812d7bc567abd246bd57a77fe38b15847556a626a5bca)':
     dependencies:
-      '@bbob/types': 4.2.0
+      '@bbob/types': 4.3.1
 
   '@bbob/preset-html5@4.2.0(patch_hash=2dfb8d9be036009fcc315551cb39b08f478c9a279511267cf570a3486073d39b)':
     dependencies:
       '@bbob/plugin-helper': 4.2.0(patch_hash=d40357c9c2cb427a75a812d7bc567abd246bd57a77fe38b15847556a626a5bca)
       '@bbob/preset': 4.2.0(patch_hash=6d367f09bfaa669d1936b0d0da34a962fdd4fdf2cacc103a856dc5ba310abfed)
-      '@bbob/types': 4.2.0
+      '@bbob/types': 4.3.1
 
   '@bbob/preset@4.2.0(patch_hash=6d367f09bfaa669d1936b0d0da34a962fdd4fdf2cacc103a856dc5ba310abfed)':
     dependencies:
       '@bbob/plugin-helper': 4.2.0(patch_hash=d40357c9c2cb427a75a812d7bc567abd246bd57a77fe38b15847556a626a5bca)
-      '@bbob/types': 4.2.0
+      '@bbob/types': 4.3.1
 
-  '@bbob/types@4.2.0': {}
+  '@bbob/types@4.3.1': {}
 
   '@bcoe/v8-coverage@0.2.3': {}
 
