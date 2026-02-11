@@ -153,8 +153,8 @@ importers:
         specifier: 7.0.6
         version: 7.0.6
       iconv-lite:
-        specifier: 0.6.3
-        version: 0.6.3
+        specifier: 0.7.2
+        version: 0.7.2
       imapflow:
         specifier: 1.0.199
         version: 1.0.199
@@ -4135,6 +4135,10 @@ packages:
 
   iconv-lite@0.7.0:
     resolution: {integrity: sha512-cf6L2Ds3h57VVmkZe+Pn+5APsT7FpqJtEhhieDCvrE2MK5Qk9MyffgQyuxQTm6BChfeZNtcOLHp9IcWRVcIcBQ==}
+    engines: {node: '>=0.10.0'}
+
+  iconv-lite@0.7.2:
+    resolution: {integrity: sha512-im9DjEDQ55s9fL4EYzOAv0yMqmMBSZp6G0VvFyTMPKWxiSBHUj9NW/qqLmXUwXrrM7AvqSlTCfvqRb0cM8yYqw==}
     engines: {node: '>=0.10.0'}
 
   ieee754@1.2.1:
@@ -10550,6 +10554,10 @@ snapshots:
       safer-buffer: '@nolyfill/safer-buffer@1.0.44'
 
   iconv-lite@0.7.0:
+    dependencies:
+      safer-buffer: '@nolyfill/safer-buffer@1.0.44'
+
+  iconv-lite@0.7.2:
     dependencies:
       safer-buffer: '@nolyfill/safer-buffer@1.0.44'
 
