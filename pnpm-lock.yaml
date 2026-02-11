@@ -255,8 +255,8 @@ importers:
         specifier: 2.17.0
         version: 2.17.0
       simplecc-wasm:
-        specifier: 1.1.0
-        version: 1.1.0
+        specifier: 1.1.1
+        version: 1.1.1
       socks-proxy-agent:
         specifier: 8.0.5
         version: 8.0.5
@@ -5626,8 +5626,8 @@ packages:
   simple-swizzle@0.2.2:
     resolution: {integrity: sha512-JA//kQgZtbuY83m+xT+tXJkmJncGMTFT+C+g2h2R9uxkYIrE2yy9sgmcLhCnw57/WSD+Eh3J97FPEDFnbXnDUg==}
 
-  simplecc-wasm@1.1.0:
-    resolution: {integrity: sha512-0nmH9WrzxpI8GOZkltH0NKAlcPe42rXek01noMSdelCmj8RYSL06SDDG/YWhvVTbMcuN1fq5imOeXpUJmhbcPQ==}
+  simplecc-wasm@1.1.1:
+    resolution: {integrity: sha512-NHBvSBlnOk7nqiNKvNpG/3DqD4XBkls3CqmTl4t3At4v7N9z1HO2t9g7vK//0o33zcgVOKE59vFcyCcgCuw6zQ==}
 
   slice-ansi@7.1.2:
     resolution: {integrity: sha512-iOBWFgUX7caIZiuutICxVgX1SdxwAVFFKwt1EvMYYec/NWO5meOJ6K5uQxhrYBdQJne4KxiqZc+KptFOWFSI9w==}
@@ -12202,7 +12202,7 @@ snapshots:
     dependencies:
       is-arrayish: 0.3.2
 
-  simplecc-wasm@1.1.0: {}
+  simplecc-wasm@1.1.1: {}
 
   slice-ansi@7.1.2:
     dependencies:
