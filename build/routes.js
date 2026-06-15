@@ -38025,7 +38025,8 @@ export default {
       "/gnn/:category?": {
         "path": "/gnn/:category?",
         "categories": [
-          "anime"
+          "anime",
+          "popular"
         ],
         "view": 0,
         "example": "/gamer/gnn/1",
@@ -44834,7 +44835,8 @@ export default {
           "nczitzk"
         ],
         "categories": [
-          "government"
+          "government",
+          "popular"
         ],
         "radar": [
           {
@@ -81654,8 +81656,7 @@ export default {
       "/model/:username/:language?/:sort?": {
         "path": "/model/:username/:language?/:sort?",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "view": 3,
         "example": "/pornhub/model/stacy-starando",
@@ -81691,8 +81692,7 @@ export default {
       "/pornstar/:username/:language?/:sort?": {
         "path": "/pornstar/:username/:language?/:sort?",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "view": 3,
         "example": "/pornhub/pornstar/june-liu/www/mr",
