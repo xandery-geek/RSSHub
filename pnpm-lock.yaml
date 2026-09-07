@@ -381,8 +381,8 @@ importers:
         specifier: 18.3.0
         version: 18.3.0(@typescript/typescript6@6.0.2)(eslint@10.9.1(jiti@2.7.0))
       eslint-plugin-regexp:
-        specifier: 3.2.0
-        version: 3.2.0(eslint@10.9.1(jiti@2.7.0))
+        specifier: 3.3.0
+        version: 3.3.0(eslint@10.9.1(jiti@2.7.0))
       eslint-plugin-simple-import-sort:
         specifier: 14.0.0
         version: 14.0.0(eslint@10.9.1(jiti@2.7.0))
@@ -3947,8 +3947,8 @@ packages:
       typescript:
         optional: true
 
-  eslint-plugin-regexp@3.2.0:
-    resolution: {integrity: sha512-4yq47CnLxyfHFKJEo5kvNaiJ0aDtBxSJWk4M2LiamplUXdWxdlzDYqImb/ZVCp+2BqkQjBAmw4Xc07Q8SXVDZg==}
+  eslint-plugin-regexp@3.3.0:
+    resolution: {integrity: sha512-TT0JTQbW7CRKohntpGAsMdQ1K3MsmJK4gdAhKJtIwlJ0JvuYxauymFgJdvqxIY4lqNj0EuRZWVrymQtEdJYEFg==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
     peerDependencies:
       eslint: '>=9.38.0'
@@ -4586,8 +4586,8 @@ packages:
   jsbn@0.1.1:
     resolution: {integrity: sha512-UVU9dibq2JcFWxQPA6KCqj5O42VOmAY3zQUfEKxU0KpTGXwNoCjkX1e13eHNvw/xPynt6pU0rZ1htjWTNTSXsg==}
 
-  jsdoc-type-pratt-parser@9.1.1:
-    resolution: {integrity: sha512-kojSbQb9iQM2bk2PmHiKa3reG0U4v2gN9U8D8+eCQq+4KM5ZXBUyBVeF8KmR0RiwqyrW4+uVWYWTOLnpsavnkw==}
+  jsdoc-type-pratt-parser@9.2.1:
+    resolution: {integrity: sha512-V4Ww4EHnTcTLSOMoB0FsF72JhQvcAsriCm/LWnxJeGWoxIjEL2l9na11abQok5SYShq8m0Gl02el/xAbTCulvQ==}
     engines: {node: ^22.22.2 || >=24.15.0}
 
   jsdom@30.0.1:
@@ -5373,6 +5373,10 @@ packages:
 
   postcss@8.5.26:
     resolution: {integrity: sha512-u82N74LFzG8ca+dD8puPnplTXoGH4fTPpVGuIbt36G3qvNlkvfD0lEAZSxaly3KX8TS/L1A1gsCEmvKmBcVbkQ==}
+    engines: {node: ^10 || ^12 || >=14}
+
+  postcss@8.5.28:
+    resolution: {integrity: sha512-RRuzqDtt5Y9h3quz5hWhK+TPnsmVs6WwSU6LkJMeY4HstUEDuYTG8UJSdawMRzmzAtV+KEoG8N3Qg2qLy5vM/A==}
     engines: {node: ^10 || ^12 || >=14}
 
   postman-request@2.88.1-postman.49:
@@ -9292,13 +9296,13 @@ snapshots:
     optionalDependencies:
       typescript: '@typescript/typescript6@6.0.2'
 
-  eslint-plugin-regexp@3.2.0(eslint@10.9.1(jiti@2.7.0)):
+  eslint-plugin-regexp@3.3.0(eslint@10.9.1(jiti@2.7.0)):
     dependencies:
       '@eslint-community/eslint-utils': 4.10.1(eslint@10.9.1(jiti@2.7.0))
       '@eslint-community/regexpp': 4.12.2
       comment-parser: 1.4.8
       eslint: 10.9.1(jiti@2.7.0)
-      jsdoc-type-pratt-parser: 9.1.1
+      jsdoc-type-pratt-parser: 9.2.1
       refa: 0.12.1
       regexp-ast-analysis: 0.7.1
       scslre: 0.3.0
@@ -10037,9 +10041,10 @@ snapshots:
 
   jsbn@0.1.1: {}
 
-  jsdoc-type-pratt-parser@9.1.1:
+  jsdoc-type-pratt-parser@9.2.1:
     dependencies:
       '@types/estree': 1.0.9
+      '@types/node': 26.4.1
 
   jsdom@30.0.1(@noble/hashes@2.3.0):
     dependencies:
@@ -11080,6 +11085,12 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
+  postcss@8.5.28:
+    dependencies:
+      nanoid: 3.3.18
+      picocolors: 1.1.1
+      source-map-js: 1.2.1
+
   postman-request@2.88.1-postman.49:
     dependencies:
       '@postman/form-data': 3.1.1
@@ -11966,7 +11977,7 @@ snapshots:
       esbuild: 0.27.7
       fdir: 6.5.0(picomatch@4.0.7)
       picomatch: 4.0.7
-      postcss: 8.5.26
+      postcss: 8.5.28
       rollup: 4.63.1
       tinyglobby: 0.2.17
     optionalDependencies:
